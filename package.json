@@ -1,5 +1,5 @@
 {
-  "name": "koda-demo-npm-package",
+  "name": "@koda/npm-package-example",
   "version": "1.0.0",
   "description": "",
   "main": "dist/cjs/index.cjs.js",

@@ -26,7 +26,7 @@ module.exports = [
       nodeResolve({ browser: true }),
       commonJS({ extensions: [".js", ".ts"] }),
       typeScript({
-        exclude: ["*.d.ts", "**/*.d.ts", "**/*.test.ts"],
+        exclude: ["*.d.ts", "**/*.d.ts", "**/*.test.ts","jest.config.ts"],
       }),
       babel({
         babelHelpers: "bundled",
@@ -57,7 +57,7 @@ module.exports = [
       nodeResolve({ browser: false }),
       commonJS({ extensions: [".js", ".ts"] }),
       typeScript({
-        exclude: ["*.d.ts", "**/*.d.ts", "**/*.test.ts"],
+        exclude: ["*.d.ts", "**/*.d.ts", "**/*.test.ts","jest.config.ts"],
       }),
       babel({
         babelHelpers: "bundled",
