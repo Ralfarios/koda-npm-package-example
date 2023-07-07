@@ -7,6 +7,7 @@ const { babel } = require("@rollup/plugin-babel");
 const pkg = require("./package.json");
 const path = require("path");
 
+/** @type import('rollup').RollupOptions[] */
 module.exports = [
   // For Browser
   {
